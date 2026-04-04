@@ -2,7 +2,7 @@ import { StatusBar, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import StackNavigation from './components/navigation/StackNavigator'
 import { Provider } from 'react-redux'
-import Store from './redux/Store'
+import Store from './redux/Store';
 const App = () => {
   return (
     <>
